@@ -22,6 +22,11 @@ A template for building OpenWrt with GitHub Actions
 - It may take a long time to create a `.config` file and build the OpenWrt firmware. Thus, before create repository to build your own firmware, you may check out if others have already built it which meet your needs by simply [search `Actions-Openwrt` in GitHub](https://github.com/search?q=Actions-openwrt).
 - Add some meta info of your built firmware (such as firmware architecture and installed packages) to your repository introduction, this will save others' time.
 
+https://www.right.com.cn/forum/thread-3682029-1-1.html
+复制 SSH 连接命令粘贴到终端内执行，或者复制链接在浏览器中打开使用网页终端。（网页终端可能会遇到黑屏的情况，按 Ctrl + C 即可）
+cd openwrt && make menuconfig
+完成后按快捷键Ctrl+D或执行exit命令退出，后续编译工作将自动进行。
+
 ## Credits
 
 - [Microsoft Azure](https://azure.microsoft.com)
